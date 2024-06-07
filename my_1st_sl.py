@@ -12,7 +12,7 @@ st.sidebar.radio('라디오 버튼', ['radio 1', 'radio 2', 'radio 3'])
 st.sidebar.selectbox('셀렉트박스', ['select 1', 'select 2', 'select 3'])
 
 st.header('## 1️⃣ 개인정보')
-col_1, col_2, col_3 = st.columns([1:1:1])
+col_1, col_2, col_3 = st.columns([1,1,1])
 
 with col_1 :
     st.write('### 학적사항')
