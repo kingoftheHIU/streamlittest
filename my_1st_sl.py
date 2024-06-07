@@ -1,21 +1,10 @@
 import streamlit as st
 
 st.title('「 ✦ SUYEON HONG ✦ 」')
-
-st.write(' ➡ 본 웹페이지는 홍수연의 비전과 앞으로의 계획에 대해 소개하는 페이지 입니다.')
+st.subheader(' ➡ 본 웹페이지는 홍수연의 비전과 앞으로의 계획에 대해 소개하는 페이지 입니다.')
 
 st.write('')
 st.write('')
-
-st.header('🤖 텍스트')
-
-'# 이것은 제목입니다. : Magic 명령어'
-st.write('# 이것은 제목입니다. : st.write()')
-st.title('이것은 제목입니다. : st.title()')
-st.header('이것은 헤더입니다. : st.header()')
-st.subheader('이것은 서브헤더입니다. : st.subheader()')
-st.text('## 이것은 텍스트입니다. : st.text()')
-st.markdown('## 이것은 마크다운입니다. : st.markdown()')
 
 st.header('✔️사이드바')
 st.sidebar.write('### ✔️사이드바')
@@ -42,17 +31,10 @@ with col_3 :
     st.write('- 중앙동아리 터사랑 부회장')
     st.write('- 총동아리연합회 레저분과장')
     
+st.write('')
 
-st.markdown(
-    '''
-
-    ### II 앞으로의 비전🎓
-    - 1. **복수전공을 한 이유**
-        ➤ 경영학과 세부전공은 총 7가지 (참고자료 : [홍익대학교 홈페이지](https://bizadmin.hongik.ac.kr/dept/biz/0303.html))
-            이 중 생산경영을 세부전공으로 선택하기로 결정
-            ❔ '경영과 의사결정'이라는 과목과 '생산과 경영'이라는 강의에 흥미를 느낌
-           
-    ### III 준비 과정
-    일반 텍스트
-    '''
-    )
+st.header('2️⃣ 앞으로의 비전')
+st.write('### 1. 복수전공을 한 이유')
+st.write(' ➤ 경영학과 세부전공은 총 7가지 (참고자료 : [홍익대학교 홈페이지](https://bizadmin.hongik.ac.kr/dept/biz/0303.html))')
+st.write('이 중 생산경영을 세부전공으로 선택하기로 결정')
+st.write('❔ '경영과 의사결정'이라는 과목과 '생산과 경영'이라는 강의에 흥미를 느낌')
