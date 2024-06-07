@@ -2,11 +2,9 @@ import streamlit as st
 
 st.title('「 ✦ SUYEON HONG ✦ 」')
 
-st.write('# 1. 개인정보🧬')
-
 st.markdown(
     '''
-    # 마크다운 헤더1
+    # 1. 개인정보🧬
     - 1. **전공** 
         - 1-1 주전공 : 경영학과
         - 1-2 복수전공 : 산업데이터공학과
