@@ -2,6 +2,8 @@ import streamlit as st
 
 st.title('「 ✦ SUYEON HONG ✦ 」')
 
+st.write(➡본 웹페이지는 홍수연의 비전과 앞으로의 계획에 대해 소개하는 페이지 입니다.)
+
 st.markdown(
     '''
     # I 개인정보🧬
