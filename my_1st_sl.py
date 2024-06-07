@@ -7,8 +7,18 @@ st.write(' ➡ 본 웹페이지는 홍수연의 비전과 앞으로의 계획에
 st.write('')
 st.write('')
 
+st.header('🤖 텍스트')
+
+'# 이것은 제목입니다. : Magic 명령어'
+st.write('# 이것은 제목입니다. : st.write()')
+st.title('이것은 제목입니다. : st.title()')
+st.header('이것은 헤더입니다. : st.header()')
+st.subheader('이것은 서브헤더입니다. : st.subheader()')
+st.text('## 이것은 텍스트입니다. : st.text()')
+st.markdown('## 이것은 마크다운입니다. : st.markdown()')
+
 st.header('✔️사이드바')
-st.sidebar.write('## 사이드바 텍스트')
+st.sidebar.write('### ✔️사이드바')
 st.sidebar.checkbox('체크박스 1')
 st.sidebar.checkbox('체크박스 2')
 st.sidebar.radio('라디오 버튼', ['radio 1', 'radio 2', 'radio 3'])
