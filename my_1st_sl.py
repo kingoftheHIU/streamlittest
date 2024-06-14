@@ -6,7 +6,6 @@ st.subheader(' ➡ 본 웹페이지는 홍수연의 비전과 앞으로의 계�
 st.write('')
 st.write('')
 
-st.header('✔️사이드바')
 st.sidebar.write('### ✔️사이드바')
 st.sidebar.checkbox('체크박스 1')
 st.sidebar.checkbox('체크박스 2')
