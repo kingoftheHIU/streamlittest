@@ -46,6 +46,13 @@ st.header('3️⃣ Projects and Research')
 st.write('### 원하는 프로젝트 선택하기')
 col_5, col_6 = st.columns([1,1])
 
+with col_5:
+  check = st.checkbox('ddd')
+  if check :
+    st.write('fff')
+    with col_6:
+      st.image('pages/optimal1.png')
+
 check = st.checkbox('🔴 최적해 찾기')
 if check :
   st.write('[최적해 찾기]를 선택하셨습니다.')
