@@ -12,6 +12,7 @@ col_1, col_2= st.columns([1,1])
 
 with col_1 :
     st.write('### 학적사항')
+    st.image('girl.png')
    
 with col_2 :
     st.write('### 전공')
