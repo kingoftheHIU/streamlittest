@@ -31,11 +31,11 @@ with col_2:
 
 col_3, col_4 = st.columns([1,1])
 
-with col_1:
+with col_3:
   st.write('### 린 생산 (Lean Manufacturing)')
   st.write('리안 생산은 낭비를 줄이고 가치를 최대화하는 생산 방법론입니다. 제품 생산 과정에서 발생하는 낭비를 체계적으로 분석하고 개선하여 생산성을 향상시키는 것이 목적입니다.')
   
-with col_2:
+with col_4:
   st.write('### 생산 계획 및 통제 (Production Planning and Control)')
   st.write('생산 계획 및 통제는 생산 일정을 계획하고 실행하는 과정을 포함합니다. 자원 할당, 작업 스케줄링, 생산 라인 효율화 등을 통해 생산 프로세스를 효과적으로 관리하고 제품 생산의 안정성과 품질을 유지하는 것이 목표입니다.')
 
