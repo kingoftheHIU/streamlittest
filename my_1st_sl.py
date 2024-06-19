@@ -61,7 +61,7 @@ else :
 st.write('')
 st.write('')
 
-st.write('### 좋아요! 이제 진짜 저에 대해 알아볼까요?')
+st.markdown(''' **좋아요! 이제 진짜 저에 대해 알아볼까요?** ''')
 
 st.write('')
 st.write('')
