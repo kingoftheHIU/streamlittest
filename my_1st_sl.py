@@ -11,6 +11,8 @@ st.set_page_config(     # 페이지 설정
     }
 )
 
+st.sidebar.success("위의 목록에서 Demo를 선택하시오.")
+
 st.title('Welcome to personal page of Suyeon!')
 st.subheader(' ➡ Get to Know Me ( • ᴗ - ) ✧ ')
 
