@@ -62,14 +62,14 @@ with tab_3:
 
 with tab_4:
     st.write('### 취미와 관심사(Hobbies and Interests)')
-    col_1, col_2, col_3 = st.columns([1,1])
-
-    with col_1:
-        st.write('### 독서')
-        st.checkbox('이것은 1번 컬럼에 속한 체크박스 1')
-        st.checkbox('이것은 1번 컬럼에 속한 체크박스 2')
+        col_1, col_2, col_3 = st.columns([1,1])
     
-    with col_2:
-        st.write('### 등산')
-        st.radio('2번 컬럼의 라디오 버튼', ['radio 1', 'radio 2', 'radio 3'])
+        with col_1:
+            st.write('### 독서')
+            st.checkbox('이것은 1번 컬럼에 속한 체크박스 1')
+            st.checkbox('이것은 1번 컬럼에 속한 체크박스 2')
+        
+        with col_2:
+            st.write('### 등산')
+            st.radio('2번 컬럼의 라디오 버튼', ['radio 1', 'radio 2', 'radio 3'])
 
