@@ -83,16 +83,16 @@ st.markdown(
     - **etc**
    '''
    )
-col1, col2, col3 = st.columns([1,1,1])
+col_1, col_2, col_3 = st.columns([1,1,1])
     
-    with col1:
+    with col_1:
         st.text('독서(reading)')
         st.image('book.jpg',width=200)
     
-    with col2:
+    with col_2:
         st.text('등산(hiking)')
         st.image('hiking.jpg', width=200)
     
-    with col3:
+    with col_3:
         st.text('뮤지컬 감상(musical)')
-        st.image('travel3.jpg', width=200)
+        st.image('musical.jpg', width=200)
