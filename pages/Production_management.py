@@ -43,9 +43,13 @@ st.write('')
 
 st.header('3️⃣ Projects and Research')
 
-st.download_button(
-    label="Download data as CSV",
-    data=csv,
-    file_name="optimal.csv",
-    mime="text/csv",
-)
+import pandas as pd
+
+def main() :
+    df = pd.read_csv('optimal.csv') # CSV 파일 불러오고 df 변수에 저장
+
+    st.dataframe(df)
+
+    df.head()
+
+    st.dataframe( df.head() )
