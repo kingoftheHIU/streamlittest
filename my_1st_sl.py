@@ -62,7 +62,8 @@ with tab_3:
 
 with tab_4:
     st.write('### 취미와 관심사(Hobbies and Interests)')
-    col1, col2, col3 = st.columns(['Cat', 'Dog', 'Owl'])
+    
+    col1, col2, col3 = st.columns([1,1,1])
     
     with col1:
         st.image('travel1.jpg',width=200)
