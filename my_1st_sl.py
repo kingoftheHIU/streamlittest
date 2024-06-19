@@ -1,11 +1,11 @@
 import streamlit as st
 
-st.set_page_config(     # 페이지 설정
-    page_title="Hello", # 페이지 Tab의 타이틀
-    page_icon="👋",     # 페이지 Tab의 아이콘
-    layout="wide",  # 페이지 레이아웃: centered, wide
-    initial_sidebar_state="expanded", # 사이드바 초기 상태: auto, collapsed, expanded
-    menu_items={        # 페이지 오른쪽 상부의 메뉴에 추가할 메뉴 항목: Get help, Report a bug, About
+st.set_page_config(     
+    page_title="Hello", 
+    page_icon="👋",     
+    layout="wide",  
+    initial_sidebar_state="expanded", 
+    menu_items={        
         'Get help': 'https://docs.streamlit.io',
         'About': "# 이것은 헤더. \n - 마크다운 문법 지원 \n - [네이버](https://naver.com)"
     }
