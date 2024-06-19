@@ -11,7 +11,8 @@ st.set_page_config(     # 페이지 설정
     }
 )
 
-st.sidebar.success("위의 목록에서 Demo를 선택하시오.")
+st.sidebar.write('## 탐색 페이지 목록 📋')
+st.sidebar.success("위의 목록에서 탐색할 페이지를 선택하세요❗")
 
 st.title('Welcome to personal page of Suyeon!')
 st.subheader(' ➡ Get to Know Me ( • ᴗ - ) ✧ ')
