@@ -32,15 +32,27 @@ tab_1, tab_2, tab_3, tab_4 = st.tabs(['학력(Educational Background)', '경력(
 
 with tab_1:
     st.write('### 학력(Educational Background)')
-    st.write('이것은 탭A의 내용입니다.')
+    st.markdown(
+    '''
+    - 홍익대학교 경영학전공 입학 (22.03)
+    - 홍익대학교 산업데이터공학 복수전공 (24.03)
+   '''
+   )
 
 with tab_2:
     st.write('### 경력(Professional Background)')
-    st.write('이것은 탭B의 내용입니다.')
+    st.markdown(
+    '''
+    - 홍익대학교 경영학전공 CD분반 집행부원 (23.03)
+    - 홍익대학교 총동아리연합회 레저분과장 (24.03)
+    - 홍익대학교 중앙동아리 터사랑 부회장 (24.03)
+   '''
+   )
     
 with tab_3:
     st.write('### 기술(Skills)')
-    st.write('이것은 탭A의 내용입니다.')
+    st.write('컴퓨터활용능력 1급')
+    st.write('컴퓨터활용능력 1급')
 
 with tab_4:
     st.write('### 취미와 관심사(Hobbies and Interests)')
