@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(     
-    page_title="About Suyeon", 
+    page_title="About Suyeon Hong", 
     page_icon="🧷",     
     layout="wide",  
     initial_sidebar_state="expanded", 
@@ -40,7 +40,7 @@ st.write('')
 st.markdown('''
 저에 대해 알아보기 전에 절 얼마나 잘 아시는지 간단한 질문을 할게요! 제 **나이**를 아시나요??
 ''')
-slider = st.slider('저는 몇살일까요? (만 나이 ❌)', 0, 100, 50)
+slider = st.slider('저는 몇살일까요? (만 나이 ❌)', 0, 50, 20)
 st.write(f'현재 선택된 값은 {slider} 세 입니다.')
 if slider == 22 :
     st.write('⭕')
@@ -61,7 +61,10 @@ else :
 st.write('')
 st.write('')
 
-st.write('### 이제 진짜 알아볼까요?')
+st.write('### 좋아요! 이제 진짜 저에 대해 알아볼까요?')
+
+st.write('')
+st.write('')
 
 st.header('2️⃣ Personal Information')
 st.markdown(
