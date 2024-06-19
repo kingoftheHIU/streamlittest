@@ -1,6 +1,5 @@
 import streamlit as st
-from PIL import Image
-aaa=Image.open('C:\Users\hsy11\Downloads\free-icon-woman-6785697.png')
+
 
 st.title('「 ✦ SUYEON HONG ✦ 」')
 st.subheader(' ➡ Welcome to personal page of Suyeon! ')
@@ -13,8 +12,6 @@ col_1, col_2= st.columns([1,1])
 
 with col_1 :
     st.write('### 학적사항')
-    st.image(aaa)
-    
    
 with col_2 :
     st.write('### 전공')
