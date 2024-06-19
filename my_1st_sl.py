@@ -18,7 +18,7 @@ st.write('')
 st.write('')
 
 st.header('1️⃣ Introduction')
-col_1, col_2= st.columns([1,1])
+col_1, col_2= st.columns([1,2])
 
 with col_1 :
     st.image('girl.png')
