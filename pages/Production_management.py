@@ -74,8 +74,8 @@ with col_5:
     제약 조건으로는 A 유형 하위조립품의 공급 한계와 B 유형 하위조립품의 공급 한계가 있었으며, 내부 생산 비용도 고려해야 했습니다. 
     Solver는 이러한 제약 조건과 목표를 바탕으로 최적의 생산 계획을 계산해주었습니다.''')
     with col_6:
-      st.image('pages/optimal1.png')
-      st.write('⤷ 직접 실행한 엑셀 함수입니다.')
+        st.image('pages/optimal1.png')
+        st.write('⤷ 직접 실행한 엑셀 함수입니다.')
       
 col_7, col_8 = st.columns([1,1])
 
@@ -88,8 +88,8 @@ with col_7:
     기계의 가동조건(고정비-2진수)으로 인해 LP보다 IP로 푸는 것이 알맞으며, LP는 실수값을 가지기 때문에 
     IP보다 더 많은 범위를 가지므로 최적해가 더 작을 수 있다는 점을 이용하여 계산하였습니다.''')
     with col_8:
-      st.image('pages/optimal2.png')
-      st.write('⤷ 직접 실행한 엑셀 함수입니다.')
+        st.image('pages/optimal2.png')
+        st.write('⤷ 직접 실행한 엑셀 함수입니다.')
 
 col_9, col_0 = st.columns([1,1])
 
@@ -99,9 +99,9 @@ with col_9:
     st.write('**생산 계획표 작성하기**를 선택하셨습니다.')
     st.markdown('''매달 목표 생산치와 생산할 수 있는 한계치가 다른 생산 시스템에 대한 문제였습니다. 
     Lean 생산에 따라 그때그때 생산할 수 있도록 목표하였습니다.''')
-      with col_0:
-      st.image('pages/plan.png')
-      st.write('⤷ 직접 실행한 엑셀 함수입니다.')
+    with col_0:
+        st.image('pages/plan.png')
+        st.write('⤷ 직접 실행한 엑셀 함수입니다.')
 
 st.write('')
 
