@@ -68,8 +68,8 @@ with tab_4:
    '''
    )
     st.image('travel1.jpg',width=200)
-    st.image('travel2.jpg')
-    st.image('travel3.jpg')
+    st.image('travel2.jpg',width=200)
+    st.image('travel3.jpg',width=200)
     st.markdown(
     '''
     - 독서(reading)
