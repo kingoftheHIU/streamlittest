@@ -46,6 +46,17 @@ st.header('3️⃣ Projects and Research')
 select = st.selectbox('원하는 프로젝트 보기', ['최적해 찾기', '변수가 2개일 때 최적해 찾기', '생산 계획표 작성하기'])
 st.write(select+'가 선택되었습니다.')
 
+col_5, col_6 = st.columns([1,1])
+
+with col_5:
+  check = st.checkbox('🔴 최적해 찾기')
+  if check :
+    st.write('[최적해 찾기]를 선택하셨습니다.')
+    with col_6:
+      st.image('')
+if check:
+    st.write('체크되었습니다.')
+
 def main() :
   project = ['최적해 찾기', '변수가 2개일 때 최적해 찾기', '생산 계획표 작성하기']
   my_choice = st.selectbox('원하는 프로젝트 보기', project)
@@ -59,5 +70,3 @@ def main() :
   elif my_choice == project[2] :
     st.write('[생산 계획표 작성하기]를 선택하셨습니다')
 
-if __name__ == "__main__" :
-    main()
