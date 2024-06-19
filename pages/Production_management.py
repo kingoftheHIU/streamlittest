@@ -44,7 +44,7 @@ st.write('')
 st.header('3️⃣ Projects and Research')
 
 st.write('### 원하는 프로젝트 선택하기')
-col_5, col_6 = st.columns([1,1])
+col_5, col_6 = st.columns([1,2])
 
 with col_5:
   check = st.checkbox('🔴 **최적해 찾기**')
