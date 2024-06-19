@@ -67,6 +67,6 @@ with tab_4:
     - 여행
    '''
    )
-    st.image('travel1')
-    st.image('travel2')
-    st.image('travel3')
+    st.image('travel1.jpg')
+    st.image('travel2.jpg')
+    st.image('travel3.jpg')
