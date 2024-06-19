@@ -38,7 +38,7 @@ with col_2 :
 st.write('')
 
 st.markdown('''
-저에 대해 알아보기 전에 절 얼마나 잘 아시는지 간단한 질문을 할게요! 제 **나이**를 아시나요??
+저에 대해 알아보기 전에 간단한 질문을 할게요! 제 **나이**를 아시나요??
 ''')
 slider = st.slider('저는 몇살일까요? (만 나이 ❌)', 0, 50, 20)
 st.write(f'현재 선택된 값은 {slider} 세 입니다.')
@@ -71,7 +71,7 @@ st.markdown(
     '''
     - **이름(Name)** : 홍수연
     - **생년월일(Birthdate)** : 2003.06.15
-    - **연락처(Contact Information)** : 10-4030-1169
+    - **연락처(Contact Information)** : 010-4030-1169
     - **이메일(Email Address)** : hsy1169@naver.com
     - **주소(Adress)** : 경기도 광명시 하안동
    '''
