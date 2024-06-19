@@ -76,11 +76,7 @@ with tab_4:
     
     with col3:
         st.image('travel3.jpg', width=200)
-    st.markdown(
-    '''
-    - **etc**
-   '''
-   )
+        
     col_1, col_2, col_3 = st.columns([1,1,1])
     
     with col_1:
