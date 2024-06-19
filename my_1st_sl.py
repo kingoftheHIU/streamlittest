@@ -130,7 +130,7 @@ with tab_4:
 st.write('')
 st.write('')
 
-button = st.button('다 했어요✨') # 버튼은 클릭 여부를 반환
+button = st.button('다 했어요✨(click🖱️)') # 버튼은 클릭 여부를 반환
 if button:
     st.balloons()
     st.success('다음 페이지로 넘어가세요!')
