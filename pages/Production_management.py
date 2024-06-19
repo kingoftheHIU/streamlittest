@@ -43,13 +43,8 @@ st.write('')
 
 st.header('3️⃣ Projects and Research')
 
-import pandas as pd
-
-def main() :
-    df = pd.read_csv('optimal.csv') # CSV 파일 불러오고 df 변수에 저장
-
-    st.dataframe(df)
-
-    df.head()
-
-    st.dataframe( df.head() )
+button = st.button('여기를 클릭하세요') # 버튼은 클릭 여부를 반환
+if button:
+    st.write('버튼이 클릭되었습니다.(일반 텍스트: st.write()')
+    st.success('버튼이 클릭되었습니다.(메시지: st.success())')  # 성공 메시지 출력
+    st.balloons()
