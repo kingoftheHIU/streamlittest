@@ -84,13 +84,25 @@ with tab_4:
     col_1, col_2, col_3 = st.columns([1,1,1])
     
     with col_1:
-        st.text('독서(reading)')
+        st.markdown(
+    '''
+    - **독서(reading)**
+   '''
+   )
         st.image('book.jpg',width=200)
     
     with col_2:
-        st.text('등산(hiking)')
+        st.markdown(
+    '''
+    - **등산(hiking)**
+   '''
+   )
         st.image('hiking.jpg', width=200)
     
     with col_3:
-        st.text('뮤지컬 감상(musical)')
+        st.markdown(
+    '''
+    - **뮤지컬(musical)**
+   '''
+   )
         st.image('musical.jpg', width=200)
