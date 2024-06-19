@@ -14,7 +14,7 @@ st.set_page_config(     # 페이지 설정
 st.sidebar.write('## 탐색 페이지 목록 📋')
 st.sidebar.success("위의 목록에서 탐색할 페이지를 선택하세요❗")
 
-st.title('Welcome to personal page of Suyeon!')
+st.title('⭐️Welcome to personal page of Suyeon!⭐️')
 st.subheader('홍수연의 페이지에 오신 여러분을 환영합니다!')
 st.subheader(' ➡ Get to Know Me ( • ᴗ - ) ✧ ')
 
