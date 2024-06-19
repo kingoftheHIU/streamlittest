@@ -65,13 +65,13 @@ with tab_4:
     col1, col2, col3 = st.columns(['Cat', 'Dog', 'Owl'])
     
     with col1:
-    st.text('Cat')
-    st.image('travel1.jpg',width=200)
+        st.text('Cat')
+        st.image('travel1.jpg',width=200)
     
     with col2:
-    st.text('Dog')
-    st.image('travel2.jpg', width=200)
+        st.text('Dog')
+        st.image('travel2.jpg', width=200)
     
     with col3:
-    st.text('Owl')
-    st.image('travel3.jpg', width=200)
+        st.text('Owl')
+        st.image('travel3.jpg', width=200)
