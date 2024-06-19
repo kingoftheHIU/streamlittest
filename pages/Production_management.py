@@ -54,13 +54,13 @@ with col_5:
     st.write('[최적해 찾기]를 선택하셨습니다.')
     with col_6:
       st.image('optimal.png')
-with col_5:
+      
   check = st.checkbox('🟡 변수가 2개일 때 최적해 찾기')
   if check :
     st.write('[변수가 2개일 때 최적해 찾기]를 선택하셨습니다.')
     with col_6:
       st.image('optimal.png')
-with col_5:
+      
   check = st.checkbox('🟢 생산 계획표 작성하기')
   if check :
     st.write('[생산 계획표 작성하기]를 선택하셨습니다.')
