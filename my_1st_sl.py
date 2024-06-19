@@ -62,17 +62,16 @@ with tab_3:
 
 with tab_4:
     st.write('### 취미와 관심사(Hobbies and Interests)')
-    st.markdown(
-    '''
-    - 여행(traveling)
-   '''
-   )
+    col1, col2, col3 = st.columns(['Cat', 'Dog', 'Owl'])
+    
+    with col1:
+    st.text('Cat')
     st.image('travel1.jpg',width=200)
-    st.image('travel2.jpg',width=200)
-    st.image('travel3.jpg',width=200)
-    st.markdown(
-    '''
-    - 독서(reading)
-   '''
-   )
-    st.image('book.jpg')
+    
+    with col2:
+    st.text('Dog')
+    st.image('travel2.jpg', width=200)
+    
+    with col3:
+    st.text('Owl')
+    st.image('travel3.jpg', width=200)
