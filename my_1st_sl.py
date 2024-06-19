@@ -11,8 +11,8 @@ st.set_page_config(     # 페이지 설정
     }
 )
 
-st.title('「 ✦ SUYEON HONG ✦ 」')
-st.subheader(' ➡ Welcome to personal page of Suyeon! ')
+st.title('Welcome to personal page of Suyeon!')
+st.subheader(' ➡ Get to Know Me ( • ᴗ - ) ✧ ')
 
 st.write('')
 st.write('')
