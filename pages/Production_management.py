@@ -58,3 +58,6 @@ def main() :
     
   elif my_choice == project[2] :
     st.write('[생산 계획표 작성하기]를 선택하셨습니다')
+
+if __name__ == "__main__" :
+    main()
