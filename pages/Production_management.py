@@ -49,13 +49,7 @@ def main() :
   
   if my_choice == project[0] :
     st.write('[최적해 찾기]를 선택하셨습니다.')
-    st.download_button(
-      label="Download data as CSV",
-      data=csv,
-      file_name="optimal.csv",
-      mime="text/csv",
-    )
-    
+   
   elif my_choice == project[1] :
     st.write('[변수가 2개일 때 최적해 찾기]를 선택하셨습니다.')
     
