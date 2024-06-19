@@ -43,8 +43,21 @@ st.write('')
 
 st.header('3️⃣ Projects and Research')
 
-button = st.button('여기를 클릭하세요') # 버튼은 클릭 여부를 반환
-if button:
-    st.write('버튼이 클릭되었습니다.(일반 텍스트: st.write()')
-    st.success('버튼이 클릭되었습니다.(메시지: st.success())')  # 성공 메시지 출력
-    st.balloons()
+def main() :
+  project = ['최적해 찾기', '변수가 2개일 때 최적해 찾기', '생산 계획표 작성하기']
+  my_choice = st.selectbox('원하는 프로젝트 보기', project)
+  
+  if my_choice == project[0] :
+    st.write('[최적해 찾기]를 선택하셨습니다.')
+    st.download_button(
+      label="Download data as CSV",
+      data=csv,
+      file_name="optimal.csv",
+      mime="text/csv",
+    )
+    
+  elif my_choice == project[1] :
+    st.write('[변수가 2개일 때 최적해 찾기]를 선택하셨습니다.')
+    
+  elif my_choice == project[2] :
+    st.write('[생산 계획표 작성하기]를 선택하셨습니다')
