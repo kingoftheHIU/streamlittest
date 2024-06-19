@@ -127,5 +127,10 @@ with tab_4:
         st.image('musical.jpg', width=200)
 
 st.write('')
-slider = st.slider('여기에서 값을 선택하세요', 0, 100, 50) # 슬라이더는 선택된 값을 반환
-st.write(f'현재의 값은 {slider} 입니다.')
+
+slider = st.slider('제 나이는 몇살일까요?', 0, 100, 50)
+st.write(f'현재 선택된 값은 {slider} 입니다.')
+if slider == 22 :
+    st.write('⭕')
+else :
+    st.write('❌')
