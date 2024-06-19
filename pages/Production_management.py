@@ -49,7 +49,7 @@ col_5, col_6 = st.columns([1,1])
 check = st.checkbox('🔴 최적해 찾기')
 if check :
   st.write('[최적해 찾기]를 선택하셨습니다.')
-  st.image('optimal1.png')
+  st.image('pages/optimal1.png')
       
 check = st.checkbox('🟡 변수가 2개일 때 최적해 찾기')
 if check :
