@@ -128,3 +128,7 @@ with tab_4:
         st.image('musical.jpg', width=200)
 
 st.write('')
+
+button = st.button('소개가 끝났습니다!') # 버튼은 클릭 여부를 반환
+if button:
+    st.balloons()
