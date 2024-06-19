@@ -64,9 +64,15 @@ with tab_4:
     st.write('### 취미와 관심사(Hobbies and Interests)')
     st.markdown(
     '''
-    - 여행
+    - 여행(traveling)
    '''
    )
-    st.image('travel1.jpg')
+    st.image('travel1.jpg',width=200)
     st.image('travel2.jpg')
     st.image('travel3.jpg')
+    st.markdown(
+    '''
+    - 독서(reading)
+   '''
+   )
+    st.image('book.jpg')
