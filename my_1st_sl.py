@@ -29,8 +29,12 @@ with col_1 :
    
 with col_2 :
     st.write('### Who am I?')
-    st.write('안녕하세요! 😊 저는 홍수연(Suyeon Hong)입니다. 항상 웃음을 잃지 않고 주변에 긍정 에너지를 전파하는 것이 제 특기랍니다! 🌟 새로운 도전과 배움을 사랑하며, 사람들과의 소통을 즐기는 외향적인 성격을 가지고 있어요. 생산경영에 대한 열정으로 매일 조금씩 성장해 나가는 중이에요. ')
-
+    st.markdown('''
+    안녕하세요! 저는 홍수연(Suyeon Hong)입니다. 긍정적인 에너지를 주변에 전달하는 것을 자랑스러워하며, 항상 웃음을 잃지 않습니다.✨ 
+    새로운 도전을 좋아하고 지속적인 학습을 추구하는 성격입니다. 사람들과의 소통을 중시하며, 특히 생산경영에 대한 깊은 관심과 열정을 가지고 있습니다. 
+    매일의 경험을 통해 전문성을 쌓아가고 있으며, 새로운 도전에 적극적으로 대응하고 있습니다.🥇
+    ''')
+    
 st.write('')
 
 st.header('2️⃣ Personal Information')
@@ -50,7 +54,7 @@ st.header('3️⃣ About Me')
 tab_1, tab_2, tab_3, tab_4 = st.tabs(['학력(Educational Background)', '경력(Professional Background)', '기술(Skills)', '취미와 관심사(Hobbies and Interests)'])
 
 with tab_1:
-    st.write('### 학력(Educational Background)')
+    st.write('### 🎓 학력(Educational Background)')
     st.markdown(
     '''
     - 홍익대학교 경영학전공 입학 (22.03)
@@ -59,7 +63,7 @@ with tab_1:
    )
 
 with tab_2:
-    st.write('### 경력(Professional Background)')
+    st.write('### 💼 경력(Professional Background)')
     st.markdown(
     '''
     - 홍익대학교 경영학전공 CD분반 집행부원 (23.03)
@@ -69,7 +73,7 @@ with tab_2:
    )
     
 with tab_3:
-    st.write('### 기술(Skills)')
+    st.write('### ⚡ 기술(Skills)')
     st.markdown(
     '''
     - 컴퓨터활용능력 1급
@@ -80,7 +84,7 @@ with tab_3:
    )
 
 with tab_4:
-    st.write('### 취미와 관심사(Hobbies and Interests)')
+    st.write('### 🌳 취미와 관심사(Hobbies and Interests)')
     st.markdown(
     '''
     - **여행(traveling)**
