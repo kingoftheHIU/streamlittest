@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title('「 ✦ SUYEON HONG ✦ 」')
-st.subheader(' ➡ Welcome to Suyeon's personal page! ')
+st.subheader(' ➡ Welcome to personal page of Suyeon! ')
 
 st.write('')
 st.write('')
