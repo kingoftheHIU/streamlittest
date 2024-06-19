@@ -64,3 +64,4 @@ with col_5:
     st.write('[생산 계획표 작성하기]를 선택하셨습니다.')
     with col_6:
       st.image('optimal.png')
+with col_6:
