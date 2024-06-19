@@ -42,3 +42,17 @@ with col_4:
 st.write('')
 
 st.header('3️⃣ Projects and Research')
+
+@st.cache_data
+def convert_df(df):
+    # IMPORTANT: Cache the conversion to prevent computation on every rerun
+    return df.to_csv().encode("utf-8")
+
+csv = convert_df(my_large_df)
+
+st.download_button(
+    label="Download data as CSV",
+    data=csv,
+    file_name="변수가 2개일 때 최적해 찾기.csv",
+    mime="text/csv",
+)
