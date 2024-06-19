@@ -51,7 +51,7 @@ with col_5:
   if check :
     st.write('[최적해 찾기]를 선택하셨습니다.')
     with col_6:
-      st.image('optimal.png')
+      st.image('optimal1.png')
       
   check = st.checkbox('🟡 변수가 2개일 때 최적해 찾기')
   if check :
