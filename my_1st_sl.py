@@ -51,9 +51,23 @@ with tab_2:
     
 with tab_3:
     st.write('### 기술(Skills)')
-    st.write('컴퓨터활용능력 1급')
-    st.write('컴퓨터활용능력 1급')
+    st.markdown(
+    '''
+    - 컴퓨터활용능력 1급
+    - 품질경영기사 (따고 싶음)
+    - 토익 xxx점
+    - 토플 xxx점
+   '''
+   )
 
 with tab_4:
     st.write('### 취미와 관심사(Hobbies and Interests)')
-    st.write('이것은 탭B의 내용입니다.')
+    tab_1, tab_2 = st.tabs(['독서', '등산'])
+    
+    with tab_1:
+        st.write('### 독서')
+        st.write('이것은 탭A의 내용입니다.')
+    
+    with tab_2:
+        st.write('### 등산')
+        st.write('이것은 탭B의 내용입니다.')
