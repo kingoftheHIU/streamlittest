@@ -54,20 +54,3 @@ with col_5:
     st.write('[최적해 찾기]를 선택하셨습니다.')
     with col_6:
       st.image('optimal.png')
-      
-if check:
-    st.write('체크되었습니다.')
-
-def main() :
-  project = ['최적해 찾기', '변수가 2개일 때 최적해 찾기', '생산 계획표 작성하기']
-  my_choice = st.selectbox('원하는 프로젝트 보기', project)
-  
-  if my_choice == project[0] :
-    st.write('[최적해 찾기]를 선택하셨습니다.')
-   
-  elif my_choice == project[1] :
-    st.write('[변수가 2개일 때 최적해 찾기]를 선택하셨습니다.')
-    
-  elif my_choice == project[2] :
-    st.write('[생산 계획표 작성하기]를 선택하셨습니다')
-
