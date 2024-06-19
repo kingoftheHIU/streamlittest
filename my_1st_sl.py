@@ -19,11 +19,11 @@ with col_2 :
 
 st.header('2️⃣ Personal Information')
 st.markdown(
-    '
+    '''
     - **이름(Name)** : 홍수연
     - **생년월일(Birthdate)** : 2003.06.15
     - **연락처(Contact Information)** : 10-4030-1169
     - **이메일(Email Address)** : hsy1169@naver.com
     - **주소(Adress)** : 경기도 광명시 하안동
-   '
+   '''
    )
