@@ -43,6 +43,9 @@ st.write('')
 
 st.header('3️⃣ Projects and Research')
 
+select = st.selectbox('원하는 프로젝트 보기', ['최적해 찾기', '변수가 2개일 때 최적해 찾기', '생산 계획표 작성하기'])
+st.write(select+'가 선택되었습니다.')
+
 def main() :
   project = ['최적해 찾기', '변수가 2개일 때 최적해 찾기', '생산 계획표 작성하기']
   my_choice = st.selectbox('원하는 프로젝트 보기', project)
