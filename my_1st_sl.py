@@ -63,12 +63,12 @@ with tab_3:
 with tab_4:
     st.write('### 취미와 관심사(Hobbies and Interests)')
     col1, col2, col3 = st.columns(['Cat', 'Dog', 'Owl'])
-
-with col1:
-    st.text('Cat')
     
-with col2:
-    st.text('Dog')
-    
-with col3:
-    st.text('Owl')
+    with col1:
+        st.text('Cat')
+        
+    with col2:
+        st.text('Dog')
+        
+    with col3:
+        st.text('Owl')
