@@ -43,9 +43,7 @@ st.write('')
 
 st.header('3️⃣ Projects and Research')
 
-select = st.selectbox('원하는 프로젝트 보기', ['최적해 찾기', '변수가 2개일 때 최적해 찾기', '생산 계획표 작성하기'])
-st.write(select+'가 선택되었습니다.')
-
+st.write('### 원하는 프로젝트 선택하기')
 col_5, col_6 = st.columns([1,1])
 
 with col_5:
