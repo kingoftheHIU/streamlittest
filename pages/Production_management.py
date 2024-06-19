@@ -41,21 +41,21 @@ st.header('2️⃣ Key Areas of Interest')
 col_1, col_2 = st.columns([1,1])
 
 with col_1:
-  st.write('### 품질 관리 (Quality Management)')
+  st.write('### 📌 품질 관리 (Quality Management)')
   st.write('품질 관리는 제품이나 서비스의 품질을 유지하고 향상시키기 위한 전략과 프로세스를 포함합니다. 품질 관리 시스템의 구축과 지속적인 품질 개선을 통해 고객 만족도를 높이는 것이 목표입니다.')
 
 with col_2:
-  st.write('### 공급망 관리 (Supply Chain Management)')
+  st.write('### 📌 공급망 관리 (Supply Chain Management)')
   st.write('공급망 관리는 원자재부터 최종 제품이 소비자에게 도달할 때까지의 전체 공급망을 효율적으로 관리하는 것을 의미합니다. 재고 최적화, 납품 시간 준수 및 비용 절감 등이 중요한 관리 요소입니다.')
 
 col_3, col_4 = st.columns([1,1])
 
 with col_3:
-  st.write('### 린 생산 (Lean Manufacturing)')
+  st.write('### 📌 린 생산 (Lean Manufacturing)')
   st.write('린 생산은 낭비를 줄이고 가치를 최대화하는 생산 방법론입니다. 제품 생산 과정에서 발생하는 낭비를 체계적으로 분석하고 개선하여 생산성을 향상시키는 것이 목적입니다.')
   
 with col_4:
-  st.write('### 생산 계획 및 통제 (Production Planning and Control)')
+  st.write('### 📌 생산 계획 및 통제 (Production Planning and Control)')
   st.write('생산 계획 및 통제는 생산 일정을 계획하고 실행하는 과정을 포함합니다. 자원 할당, 작업 스케줄링, 생산 라인 효율화 등을 통해 생산 프로세스를 효과적으로 관리하고 제품 생산의 안정성과 품질을 유지하는 것이 목표입니다.')
 
 st.write('')
@@ -110,7 +110,7 @@ st.markdown(
   ### 프로젝트에 사용된 도구와 기술
   💡 프로젝트에 사용된 프로그램은 **엑셀의 최적해 찾기 기능**이었습니다.
   이 기능을 활용하여 데이터를 분석하고 최적화하는 과정에서 중요한 결과를 도출할 수 있었습니다. 
-  또한, **선형 계획법(Linear Programming)**을 사용하여 복잡한 문제를 분석하고 해결하는 데 기여하였습니다. 
+  또한, **선형 계획법**(Linear Programming)을 사용하여 복잡한 문제를 분석하고 해결하는 데 기여하였습니다. 
   이러한 도구와 기술을 통해 프로젝트의 목표를 달성하는 데 중요한 역할을 하였습니다.
   ''')
 
