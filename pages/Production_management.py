@@ -53,7 +53,8 @@ with col_5:
   if check :
     st.write('[최적해 찾기]를 선택하셨습니다.')
     with col_6:
-      st.image('')
+      st.image('optimal.png')
+      
 if check:
     st.write('체크되었습니다.')
 
