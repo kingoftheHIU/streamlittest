@@ -26,7 +26,7 @@ with col_1 :
 with col_2 :
     st.write('### Who am I?')
     st.write('안녕하세요! 😊 저는 홍수연(Suyeon Hong)입니다. 항상 웃음을 잃지 않고 주변에 긍정 에너지를 전파하는 것이 제 특기랍니다! 🌟 새로운 도전과 배움을 사랑하며, 사람들과의 소통을 즐기는 외향적인 성격을 가지고 있어요. 생산경영에 대한 열정으로 매일 조금씩 성장해 나가는 중이에요. ')
-    st.write('Hello! 😊 I'm Suyeon Hong. Spreading positive energy and always keeping a smile is my specialty! I love new challenges and learning, and I enjoy communicating with people, thanks to my outgoing personality. With a passion for production management, I am growing a little bit every day.')
+    st.write('Hello! 😊 I'm Suyeon Hong. Spreading positive energy and always keeping a smile is my specialty! I love new challenges and learning, and I enjoy communicating with people, thanks to my outgoing personality. With a passion for production management, I am growing a little bit every day. ')
 
 st.header('2️⃣ Personal Information')
 st.markdown(
