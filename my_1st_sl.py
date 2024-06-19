@@ -125,3 +125,7 @@ with tab_4:
    '''
    )
         st.image('musical.jpg', width=200)
+
+st.write('')
+slider = st.slider('여기에서 값을 선택하세요', 0, 100, 50) # 슬라이더는 선택된 값을 반환
+st.write(f'현재의 값은 {slider} 입니다.')
