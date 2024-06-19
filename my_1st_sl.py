@@ -37,6 +37,32 @@ with col_2 :
     
 st.write('')
 
+st.markdown('''
+저에 대해 알아보기 전에 절 얼마나 잘 아시는지 간단한 질문을 할게요! 제 **나이**를 아시나요??
+''')
+slider = st.slider('저는 몇살일까요? (만 나이 ❌)', 0, 100, 50)
+st.write(f'현재 선택된 값은 {slider} 세 입니다.')
+if slider == 22 :
+    st.write('⭕')
+    st.markdown('''
+    맞아요! 제 나이는 **22살**이랍니다!
+    ''')
+elif slider == 21 :
+    st.write('🤔')
+    st.markdown('''
+    만 나이는 **21살**이 맞지만... 
+    ''')
+else :
+    st.write('❌')
+    st.markdown('''
+    조금만 더 고민해보아요!
+    ''')
+
+st.write('')
+st.write('')
+
+st.write('### 이제 진짜 알아볼까요?')
+
 st.header('2️⃣ Personal Information')
 st.markdown(
     '''
@@ -127,10 +153,3 @@ with tab_4:
         st.image('musical.jpg', width=200)
 
 st.write('')
-
-slider = st.slider('제 나이는 몇살일까요?', 0, 100, 50)
-st.write(f'현재 선택된 값은 {slider} 입니다.')
-if slider == 22 :
-    st.write('⭕')
-else :
-    st.write('❌')
