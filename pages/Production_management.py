@@ -43,15 +43,9 @@ st.write('')
 
 st.header('3️⃣ Projects and Research')
 
-@st.cache_data
-def convert_df(df):
-    return df.to_csv().encode("utf-8")
-
-csv = convert_df(optimal)
-
 st.download_button(
     label="Download data as CSV",
     data=csv,
-    file_name="변수가 2개일 때 최적해 찾기.csv",
+    file_name="optimal.csv",
     mime="text/csv",
 )
