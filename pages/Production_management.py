@@ -49,11 +49,13 @@ col_5, col_6 = st.columns([1,1])
 with col_5:
   check = st.checkbox('🔴 **최적해 찾기**')
   if check :
-    st.write('**[최적해 찾기]**를 선택하셨습니다.')
+    st.write('**최적해 찾기**를 선택하셨습니다.')
     with col_6:
       st.image('pages/optimal1.png')
       st.write('⤹ 🔴 직접 실행한 엑셀 함수입니다. ⤸')
       
+col_5, col_6 = st.columns([1,1])
+
 with col_5:
   check = st.checkbox('🟡 **변수가 2개일 때 최적해 찾기**')
   if check :
@@ -61,6 +63,8 @@ with col_5:
     with col_6:
       st.image('pages/optimal2.png')
       st.write('⤹ 🟡 직접 실행한 엑셀 함수입니다. ⤸')
+
+col_5, col_6 = st.columns([1,1])
 
 with col_5:
   check = st.checkbox('🟢 **생산 계획표 작성하기**')
